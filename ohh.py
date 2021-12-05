@@ -58,15 +58,17 @@ class Main(object):
 		self.name = name
 	def banner(self):
 		banner = f"""
-_________  ________  __      __________  
-\_   ___ \ \_____  \/  \    /  \_____  \ 
-/    \  \/  /   |   \   \/\/   / _(__  < 
-\     \____/    |    \        / /      
-\
- \______  /\_______  /\__/\  / /______  /
-        \/         \/      \/         \/ 
-	Version: {BM}0.1.4{P}
-  Coded by: ENDANG DEV, Sponsore: HASAN ID
+    print("""\x1b[0;31m   ______     __ __       __
+\x1b[0;31m  / ____/____/ // / _____/ /__\x1b[0;31m|•| SELAMAT
+\x1b[0;31m / /   / ___/ // /_/ ___/ //_/\x1b[0;31m|•| MENGGUNAKAN
+\x1b[0;37m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;37m|•| SEMOGA
+\x1b[0;37m\____/_/\x1b[0;36mV3.1 \x1b[0;37m/_/  \___/_/|_|  \x1b[0;37m|•| BERHASIL
+\x1b[0;37m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : HASAN ID
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/Hasdian
+\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Muhammad hasan hasdian id
+\x1b[0;37m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+""")
 		"""
 		return banner
 	def cpdetect(self):
